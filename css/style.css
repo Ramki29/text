@@ -1,0 +1,125 @@
+.hi
+	{
+	text-align:center;
+	
+	}
+	
+.hello
+	{
+	text-align:left;
+	}
+	
+.save
+	{
+	text-align:right;
+	}
+	
+.true
+	{
+	text-align:justify;
+	}
+	
+#hi
+	{
+	text-decoration:overline;
+	}
+	
+#hello	
+	{
+	text-decoration:line-through;
+	}
+	
+#save
+	{
+	text-decoration:underline;
+	}
+	
+#true
+	{
+	text-decoration:underline overline;
+	}
+	
+#god
+	{
+	text-decoration:underline dotted #F41533;
+	}
+	
+#dog
+	{
+	text-decoration:#F4ED15 wavy underline;
+	}
+
+.up
+	{
+	text-transform:uppercase;
+	}
+	
+.low
+	{
+	text-transform:lowercase;
+	}
+	
+.tree
+	{
+	text-transform:capitalize;
+	}
+	
+.time
+	{
+	word-spacing:10px;
+	}
+	
+.date
+	{
+	word-spacing:30px;
+	}
+	
+#clear
+	{
+	font-family:cursive;
+	}
+	
+#call
+	{
+	font-family:"Lucida Console", Courier, monospace;
+	}
+	
+h2
+	{
+	color:#F9F8FB;
+	background-color:#CCC5EF;
+	}
+	
+h1
+	{
+	color:#232A23;
+	background-color:#A9EAAB;
+	text-align:center;
+	}
+	
+#north
+	{
+	color:#15F449;
+	background-color:#F6F682;
+	font-size:50px;
+	animation:mymove 2s infinite;
+	text-decoration:underline;
+	}
+	
+@keyframes mymove
+	{
+	50%{color:#F4155F;}
+	}	
+	
+a
+	{
+	padding:0 30px;
+	border:5px double blue;
+	background-image:linear-gradient(#A59ED4,#EDD55E,#ED5EDF);
+	font-size:20px;
+	}	
+	
+nav
+	{
+	padding:10px;
+	}
